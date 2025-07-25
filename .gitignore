@@ -1,0 +1,11 @@
+CMN/**
+
+EBOOT.BIN
+
+outputs/**
+
+*.psd
+
+*.lnk
+
+!*.gitkeep
