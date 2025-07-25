@@ -8,4 +8,8 @@ outputs/**
 
 *.lnk
 
+ISO/**
+
+*.code-workspace
+
 !*.gitkeep
