@@ -1,11 +1,13 @@
 # PSP游戏《异形战机战略版2：苦涩巧克力行动》中文本地化项目
----
+
 ## documents under construction
 
----
+
 
 some tests
 
+---
+items:
 - first
 - second
 - third
@@ -15,8 +17,6 @@ some tests
 3) three
 
 ok this is crazy
-
-test
 
 inline math: $\text{formula}=\frac{x}{2}+y+\cos{222}$
 
@@ -35,3 +35,18 @@ This is an internal [link](./sources/).
 |0|0|0|
 |1|1|1|
 
+This is a c++ code block:
+```c++
+#include <iostream>
+using namespace std::cout;
+cout << "Hello world\n";
+```
+
+This is a python code block:
+```python
+from time import sleep
+print("I'm going to sleep")
+sleep(1E6)
+```
+
+This is a piece of `inline` code.
