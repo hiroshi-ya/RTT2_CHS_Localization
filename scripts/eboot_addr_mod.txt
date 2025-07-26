@@ -1,0 +1,2 @@
+Address in EBOOT and its changed value.
+0034F024 -> 0x08C377D8
