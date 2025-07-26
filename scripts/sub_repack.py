@@ -1,4 +1,5 @@
-# Rebuild the sub level .DAT/.FAT
+# This script repacks the sub level .FAT
+# Author: HiroshiYa
 
 import numpy as np
 import os
