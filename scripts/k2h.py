@@ -1,3 +1,7 @@
+# This script takes a string as input and calculate its byte length according to the dictionary table.
+# It will also report non-existing Hanzi-character.
+# Author: HiroshiYa
+
 from time import sleep
 import subprocess
 
