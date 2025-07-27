@@ -1,10 +1,10 @@
 # PSP游戏《异形战机战略版2：苦涩巧克力行动》中文本地化项目
 
-## documents under construction
+## 文档撰写中
 
 
 
-some tests
+some random tests
 
 ---
 items:
@@ -16,7 +16,7 @@ items:
 2) two
 3) three
 
-ok this is crazy
+**ok** *this* <ins>is</ins> <ins>***crazy***</ins>
 
 inline math: $\text{formula}=\frac{x}{2}+y+\cos{222}$
 
@@ -30,6 +30,7 @@ This is an external [link](https://www.google.com/search?q=link).
 
 This is an internal [link](./sources/).
 
+Table:
 |Left|Middle|Right|
 |:---|:---:|---:|
 |0|0|0|
