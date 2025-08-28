@@ -86,13 +86,27 @@ try:
             # list for displaying
             finalDisplayList = []
 
-            # swap the $e2$ec register
+            # swap the commander register
+            replaceFlag = False
             if inOri.find('$e2$ec') != -1:
-                finalDisplayList.append(inOri.replace('$e2$ec', '三个字'))
-                finalDisplayList.append(inOri.replace('$e2$ec', '五个字中尉'))
-                finalDisplayList.append(inOri.replace('$e2$ec', '四字成语中尉'))
+                replaceFlag = True
+                replaceStr = '$e2$ec'
+            elif inOri.find('$e3$ed') != -1:
+                replaceFlag = True
+                replaceStr = '$e3$ed'
+            
+            if replaceFlag:
+                finalDisplayList.append(inOri.replace(replaceStr, '三个字'))
+                finalDisplayList.append(inOri.replace(replaceStr, '五个字中尉'))
+                finalDisplayList.append(inOri.replace(replaceStr, '四字成语中尉'))
             else:
                 finalDisplayList.append(inOri)
+            # if inOri.find('$e2$ec') != -1:
+            #     finalDisplayList.append(inOri.replace('$e2$ec', '三个字'))
+            #     finalDisplayList.append(inOri.replace('$e2$ec', '五个字中尉'))
+            #     finalDisplayList.append(inOri.replace('$e2$ec', '四字成语中尉'))
+            # else:
+            #     finalDisplayList.append(inOri)
 
             # display all the final strings
             for finalString in finalDisplayList:
