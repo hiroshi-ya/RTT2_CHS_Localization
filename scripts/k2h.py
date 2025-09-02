@@ -79,9 +79,13 @@ try:
             # display the string according to the format
             
             # get rid of $c registers
-            inOri = inOri.replace('$cf', '')
+            char_list = ['a', 'b', 'c', 'd', 'e', 'f']
             for i in range(10):
                 inOri = inOri.replace('$c'+str(i), '')
+                try:
+                    inOri = inOri.replace('$c'+char_list[i], '')
+                except IndexError:
+                    continue
             
             # list for displaying
             finalDisplayList = []
