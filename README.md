@@ -5,6 +5,8 @@
 本项目为开源项目，遵循MIT开源协议。
 
 加入讨论群：
+[![][black-shield2]][black2]
+
 [black2]: https://im.qq.com
 [black-shield2]: https://img.shields.io/badge/QQ_GROUP-718945618-black.svg?style=for-the-badge&labelColor=gray
 
@@ -13,17 +15,17 @@
 <details>
     <summary>点击展开</summary>
 
-![菜单](readme\menu.png "主菜单")
+![菜单](readme/menu.png "主菜单")
 
-![op](readme\op.png "开场动画")
+![op](readme/op.png "开场动画")
 
-![部署](readme\deploy.png "部署")
+![部署](readme/deploy.png "部署")
 
-![战斗](readme\fight.png "战斗")
+![战斗](readme/fight.png "战斗")
 
-![科技树](readme\techTree.png "科技树")
+![科技树](readme/techTree.png "科技树")
 
-![副官](readme\assist.png "副官")
+![副官](readme/assist.png "副官")
 
 </details>
 
