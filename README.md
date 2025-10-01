@@ -1,14 +1,15 @@
 # PSP游戏《异形战机战略版2：苦涩巧克力行动》中文本地化项目
 
-此仓库为PSP游戏《异形战机战略版2：苦涩巧克力行动》的中文本地化项目仓库地址。
-
-本项目为开源项目，遵循MIT开源协议。
-
-加入讨论群：
+[![][black-shield]][black]
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 [![][black-shield2]][black2]
 
+[black]: https://img.shields.io/badge/License-MIT-black.svg?style=for-the-badge&labelColor=gray
+[black-shield]: https://img.shields.io/badge/License-MIT-black.svg?style=for-the-badge&labelColor=gray
 [black2]: https://im.qq.com
-[black-shield2]: https://img.shields.io/badge/QQ_GROUP-718945618-black.svg?style=for-the-badge&labelColor=gray
+[black-shield2]: https://img.shields.io/badge/QQ_GROUP-726729364-black.svg?style=for-the-badge&labelColor=gray
+
+此仓库为PSP游戏《异形战机战略版2：苦涩巧克力行动》的中文本地化项目仓库地址。
 
 # 汉化预览
 
