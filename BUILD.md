@@ -52,9 +52,11 @@
     `python mod_applier.py`
     - 运行`mod_applier.py`时，如果您希望将[数值改动](STATSMOD.md)融合进游戏，请输入`3`
     - 否则请输入`2`
-16) 此时，`RTT2_CHS_Localization/eboots/eboot_backup/`文件夹下应会出现`EBOOT.BIN`文件；`RTT2_CHS_Localization/outputs/`文件夹下应会出现`CMN.DAT`以及`CMN.FAT`文件。
+16) 此时：
+    - `RTT2_CHS_Localization/eboots/eboot_mod/`文件夹下应会出现`EBOOT.BIN`文件
+    - `RTT2_CHS_Localization/outputs/`文件夹下应会出现`CMN.DAT`以及`CMN.FAT`文件。
 17) 回到`UMDGen`：
-    - 将`UMD/PSP_GAME/SYSDIR/EBOOT.BIN`替换为
+    - 将`UMD/PSP_GAME/SYSDIR/EBOOT.BIN`替换为`RTT2_CHS_Localization/eboots/eboot_mod/EBOOT.BIN`
     - 将`UMD/PSP_GAME/USRDIR/CMN/CMN.DAT`替换为`RTT2_CHS_Localization/outputs/CMN.DAT`
     - 将`UMD/PSP_GAME/USRDIR/CMN/CMN.FAT`替换为`RTT2_CHS_Localization/outputs/CMN.FAT`
 18) 替换完成后，将当前`UMDGen`里的所有文件另存为（Save）新的镜像文件。
